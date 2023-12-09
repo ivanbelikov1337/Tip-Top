@@ -1,0 +1,10 @@
+.wrapper {
+    position: relative;
+    min-height: 20rem;
+}
+
+.title {
+    color: #a9a6a6;
+    border-bottom: 0.1rem solid silver;
+    padding-bottom: 1rem;
+}

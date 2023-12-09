@@ -1,0 +1,27 @@
+.userTabs {
+    width: 24rem;
+}
+
+.userTabs li {
+    text-align: center;
+    width: 8rem;
+}
+
+.userTabsItem {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    font-size: 1.1rem;
+    padding: 1rem 0 1rem 0;
+    color: #9d9a9a;
+}
+
+.userTabsItem span:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid white;
+}

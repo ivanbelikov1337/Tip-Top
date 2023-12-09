@@ -1,0 +1,28 @@
+.reactPlayer    {
+    border-radius: 6.25rem;
+}
+
+
+.videoControls  {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+}
+
+
+.pause  {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    display: none;
+    cursor: pointer;
+}
+.start  {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+}
+.wrapper:hover .pause {
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.circularProgress   {
+    display: grid;
+    padding-top: 10rem;
+    place-content: center;
+}
+.user {
+    margin-left: 5.5rem;
+}
+
+.userTop {
+    display: grid;
+    place-content: center;
+}
+.userAvatar {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 8rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 8rem;
+}
+.userinfo {
+    text-align: center;
+}
+.showMore   {
+    position: relative;
+}
+.closeModal {
+    position: absolute;
+}

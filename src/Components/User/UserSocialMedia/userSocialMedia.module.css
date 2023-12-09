@@ -1,0 +1,6 @@
+.userCosials    {
+    display: flex;
+    place-content: center;
+    padding-top: 1rem;
+    gap: 2rem;
+}

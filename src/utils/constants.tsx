@@ -1,19 +1,16 @@
-import UserVideos from "../Components/User/UserVideos";
-import UserLiked from "../Components/User/UserLiked";
+import UserVideos from "../Components/User/UserVideos/UserVideos";
+
+
 
 export const USER_TABS = [
     {
         slug: "videos",
         title: "Videos",
-        content:  () => {
-            return (
-                <UserVideos/>
-            )
-        }
+        content:  <UserVideos/>
     },
     {
         slug: "liked",
         title: "Liked",
-        content: UserLiked
+        content: <></>
     }
 ]

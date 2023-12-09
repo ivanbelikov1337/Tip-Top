@@ -1,0 +1,52 @@
+.searchForm {
+    display: flex;
+}
+
+form {
+    width: 23.7rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.313rem;
+    align-items: center;
+    background: #2f2f2f;
+    border-radius: 0.625rem;
+}
+
+input, button {
+    border: 0;
+    background: #2f2f2f;
+}
+
+input[type="text"] {
+    outline: 0;
+    width: 100%;
+    padding: 0 1.6rem;
+    border-radius: 0.625rem;
+    font-size: 1.125rem;
+    color: silver;
+    border: none;
+    outline: none;
+}
+
+button {
+    border-radius: 0.313rem;
+    padding: 0.313rem;
+    font-weight: 300;
+    font-size: 0.938rem;
+    letter-spacing: 0.063rem;
+    color: #cecbcb;
+    background-color: #131111;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2f2f2f;
+}
+
+input:not(:placeholder-shown) {
+    border-radius: 0.625rem 0 0 0.625rem;
+
+}
+
+
+

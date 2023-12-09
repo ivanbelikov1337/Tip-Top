@@ -1,0 +1,33 @@
+.nurture {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video {
+    padding: 1rem 0.3rem 6rem 0.3rem;
+    border-bottom: 0.1rem silver solid;
+    width: 24em;
+    margin-left: 5.5rem;
+}
+.circularProgress {
+    display: flex;
+    margin-top: 20rem;
+    justify-content: center;
+}
+
+.videoWrapper {
+    position: relative;
+}
+
+.videoMusic {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    display: flex;
+    color: #5d5b5b;
+}
+.videoTitle {
+    color: #a9a5a5;
+    padding-bottom: 0.625rem;
+}

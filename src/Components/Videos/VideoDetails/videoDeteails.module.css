@@ -1,0 +1,8 @@
+.videoInfo {
+    position: absolute;
+    display: grid;
+    gap: 0.625rem;
+    bottom: 3rem;
+    right: 0.8rem;
+    color: #ffffff;
+}

@@ -1,0 +1,13 @@
+.header {
+    height: 4.375rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #181717;
+}
+
+.logo   {
+    background: #676464;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
